@@ -1,4 +1,4 @@
-//*******7********* */
+//*******1********* */
 // var manger = {
 //     firatName: "natan",
 //     lastName: "belay",
@@ -6,7 +6,7 @@
 //     salary: 200
 // }
 
-//******8****** */
+//******2****** */
 
 // var worker = {
 //     firstName: "dani",
@@ -15,7 +15,7 @@
 //     addres: "yarkon 65"
 // }
 
-//******9****** */
+//******3-6****** */
 
 // var fruit = {
 //     name: "apple",
@@ -26,7 +26,7 @@
 // document.write(fruit.color)
 // document.write(fruit.type)
 
-//*********10********** */
+//*********7-8********** */
 
 // var claas = {
 //     numberClaas: 3,
@@ -37,7 +37,7 @@
 //     document.write(claas.nameOfStudent[i] + "<br>")
 // }
 
-//*****11****** */
+//*****9-11****** */
 
 // var Kindergarten = {
 //     nameTeacther: "yona",
@@ -128,26 +128,144 @@
 //     console.log(cats)
 
 //*****18***** */
-var users = +prompt("inter number")
-for (var i = 0; i < users; i++) {
-    function usersNumber(users) {
-        var dog = {};
-        dog.name = prompt("inter name");
-        dog.age = +prompt("inter age");
-        dog.type = prompt("inter type");
-        dog.nameBoss = prompt("inter name Boss")
-        document.write("<p>" + dog.name + " " + dog.age + " " + dog.type + " " + dog.nameBoss + "</p>")
-    } usersNumber(users)
-}
+
+// var users = +prompt("inter number")
+// for (var i = 0; i < users; i++) {
+//     function usersNumber(users) {
+//         var dog = {};
+//         dog.name = prompt("inter name");
+//         dog.age = +prompt("inter age");
+//         dog.type = prompt("inter type");
+//         dog.nameBoss = prompt("inter name Boss")
+//         document.write("<p>" + dog.name + " " + dog.age + " " + dog.type + " " + dog.nameBoss + "</p>")
+//     } usersNumber(users)
+// }
 
 //*****19****** */
-var usersnum = +prompt("inter number");
-for (var i = 0; i < usersnum; i++) {
-    function numberusers(usersnum) {
-        var insect = {};
+
+// var usersnum = +prompt("inter number");
+// for (var i = 0; i < usersnum; i++) {
+//     function numberusers(usersnum) {
+//         var insect = {};
+//         insect.normalName = prompt("inter normal name");
+//         insect.ScientificName = prompt("inter Scientific name");
+//         insect.numberLegs = +prompt("inter number legs");
+//         insect.wings = confirm("Does he have wings?");
+//         if (insect.wings == true) {
+//             document.write("<h3>" + insect.normalName + " " + insect.ScientificName + " " + insect.numberLegs + "</h3>")
+//         }
+//     } numberusers(usersnum)
+// }
 
 
+//*****20***** */
 
-    } numberusers(usersnum)
+// var numberUsers = +prompt("inter Number");
+// for (var i = 0; i < numberUsers; i++) {
+//     function kids(numberUsers) {
+//         var boy = {};
+//         boy.fullname = prompt("inter full name");
+//         boy.age = +prompt("inter age boy");
+//         boy.kindergarten = confirm("Is he in kindergarten");
+//         if (boy.age > 4) {
+//             document.write("<p>" + boy.fullname + " " + boy.age + "</p>")
+//         }
+//     } kids(numberUsers)
+// }
+
+//*******21****** */
+
+// var computers = +prompt("inter number ");
+// for (var i = 0; i < computers; i++){
+//     function comp(computers) {
+//         var computer = {};
+//         computer.Society = prompt("inter Society name");
+//         computer.model = prompt("inter model");
+//         computer.Weight = +prompt("inter Weight");
+//         computer.stock = confirm("Is in stock");
+//         if (computer.stock == true) {
+//             if (computer.Weight > 2) {
+//                 document.write("<p>" + computer.Society + " " + computer.model + " " + computer.Weight + "</p>")
+//             }
+//         }
+//     } comp(computers)
+// }
+
+
+//*******22******** */
+
+// var number = +prompt("inter number");
+// for (var i = 0; i < number; i++) {
+//     function techerNumber(number) {
+//         var techer = {};
+//         techer.fullName = prompt("inter full name");
+//         techer.email = prompt("inter email");
+//         techer.Ybirthy = prompt("inter yearBirthy");
+//         techer.wagesHour = +prompt("inter wages hour");
+//         if (techer.wagesHour > 100) {
+//             document.write("<span>" + techer.fullName + " " + techer.email + " " + techer.wagesHour + " " + techer.Ybirthy + "</span>");
+//         }
+//         if (techer.birthy < 00 / 00 / 1990) {
+//             document.write("<span>" + techer.fullName + " " + techer.email + " " + techer.wagesHour + " " + techer.Ybirthy + "</span>");
+//         }
+//     } techerNumber(number)
+// }
+//*******23******* */
+
+// var piecenum = +prompt("inter number");
+// function Piece(piecenum) {
+//     for (var i = 0; i < piecenum; i++) {
+//         var piece = {};
+//         piece.name = prompt("inter piece name");
+//         piece.brand = prompt("inter brand");
+//         piece.arrayStors = ["haifa","ashdod","rehovot","lod"+"ramla"];
+//         piece.price = +prompt("inter price");
+//         document.write("<h1>" + piece.name + "<h1>" + "<h3>"+piece.arrayStors+"</h3>"+ "<br>");
+//     }
+// } Piece(piecenum)
+
+//******24******* */
+// var hoseNumber = +prompt("inter number");
+// function Hose(hoseNumber) {
+//     for (var i = 0; i < hoseNumber; i++) {
+//         var home = {};
+//         home.address = prompt("inter address");
+//         home.rentalPrice = +prompt("inter rental price");
+//         home.buyingPrice = +prompt("inter buying price");
+//         home.interested = ["avi","dani","nati","dana","lea"];
+//         home.mediation = confirm("Is there mediation");
+//         if(home.mediation != true){
+//             document.write("<P>"+home.address+"<br>"+home.interested)
+//         }
+//     }
+// } Hose(hoseNumber)
+
+//********25******** */
+
+// var cantryNum = +prompt("inter bumber");
+// function Cantry(cantryNum) {
+//     for (var i = 0; i < cantryNum; i++) {
+//         var cantry = {};
+//         cantry.name = prompt("inter cantry name");
+//         cantry.numberResidents = +prompt("inter number");
+//         cantry.arrayCity = ["lod", "bat-yam", "haifa", "ashdod", "rehovot"];
+//         cantry.chabad = confirm("Is there a Chabad house");
+//         if (cantry.chabad == true) {
+//             document.write("<p>" + cantry.name + "</p>" + "<br>" + cantry.arrayCity);
+//         }
+//     }
+// } Cantry(cantryNum)
+
+//********26****** */
+var movienum = +prompt("inter number");
+for(var i =0;i<movienum;i++){
+function Movie(movienum) {
+var movie = {};
+movie.name = prompt("inter movie name");
+movie.numberViews = +prompt("inter number views");
+movie.year = +prompt("inter year");
+movie.pic = 
+
+} Movie(movienum)
 }
 
