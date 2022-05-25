@@ -101,14 +101,53 @@
 
 //*****16******* */
 
-var carsArray = [];
-for (var i = 0; i < 4; i++) {
-    var car1 = {};
-    car1.brand = prompt("inter the brand");
-    car1.color = prompt("inter the color");
-    car1.model = prompt("inter the model");
-    car1.smk = prompt("inter the smk");
-    carsArray.push(car1)
-    document.write("<div>" + car1.color + " " + car1.brand + " " + car1.model + " " + car1.smk + "</div>")
+// var carsArray = [];
+// for (var i = 0; i < 4; i++) {
+//     var car1 = {};
+//     car1.brand = prompt("inter the brand");
+//     car1.color = prompt("inter the color");
+//     car1.model = prompt("inter the model");
+//     car1.smk = prompt("inter the smk");
+//     carsArray.push(car1)
+//     document.write("<div>" + car1.color + " " + car1.brand + " " + car1.model + " " + car1.smk + "</div>")
+// }
+// console.log(carsArray)
+
+//*******17****** */
+
+// function trheecats() {
+//     for (let i = 0; i < 3; i++) {
+//         var cats = {};
+//         cats.name = prompt("inter name");
+//         cats.dayBirth = prompt("inter day brith");
+//         cats.Weight = +prompt("inter Weight");
+//         cats.type = prompt("inter type");
+//         document.write("<h1>" + cats.name + " " + cats.dayBirth + " " + cats.Weight + " " + cats.type + "</h1>")
+//     }
+// } trheecats()
+//     console.log(cats)
+
+//*****18***** */
+var users = +prompt("inter number")
+for (var i = 0; i < users; i++) {
+    function usersNumber(users) {
+        var dog = {};
+        dog.name = prompt("inter name");
+        dog.age = +prompt("inter age");
+        dog.type = prompt("inter type");
+        dog.nameBoss = prompt("inter name Boss")
+        document.write("<p>" + dog.name + " " + dog.age + " " + dog.type + " " + dog.nameBoss + "</p>")
+    } usersNumber(users)
 }
-console.log(carsArray)
+
+//*****19****** */
+var usersnum = +prompt("inter number");
+for (var i = 0; i < usersnum; i++) {
+    function numberusers(usersnum) {
+        var insect = {};
+
+
+
+    } numberusers(usersnum)
+}
+
