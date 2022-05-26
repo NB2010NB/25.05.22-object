@@ -1,4 +1,4 @@
-//*******1********* */
+// ******* 1 ********* * /
 // var manger = {
 //     firatName: "natan",
 //     lastName: "belay",
@@ -6,7 +6,7 @@
 //     salary: 200
 // }
 
-//******2****** */
+//     ****** 2 ****** * /
 
 // var worker = {
 //     firstName: "dani",
@@ -15,7 +15,7 @@
 //     addres: "yarkon 65"
 // }
 
-//******3-6****** */
+//     ****** 3 - 6 ****** * /
 
 // var fruit = {
 //     name: "apple",
@@ -26,7 +26,7 @@
 // document.write(fruit.color)
 // document.write(fruit.type)
 
-//*********7-8********** */
+//     ********* 7 - 8 ********** * /
 
 // var claas = {
 //     numberClaas: 3,
@@ -37,7 +37,7 @@
 //     document.write(claas.nameOfStudent[i] + "<br>")
 // }
 
-//*****9-11****** */
+// ***** 9 - 11 ****** * /
 
 // var Kindergarten = {
 //     nameTeacther: "yona",
@@ -50,15 +50,15 @@
 // var userKey = prompt("inter key");
 // document.write(Kindergarten[userKey]
 
-//*********12******** */
+//     ********* 12 ******** * /
 
 // var curs = {};
 // curs.numberClaas = +prompt("inter number");
-// curs.numberStudents =  +prompt("inter number");
-// curs.age =  +prompt("inter age");
+// curs.numberStudents = +prompt("inter number");
+// curs.age = +prompt("inter age");
 // console.log(curs);
 
-//********13******* */
+// ******** 13 ******* * /
 
 // var techer = {};
 // for (var i = 0; i < 4; i++) {
@@ -68,12 +68,12 @@
 //     console.log(techer)
 // }
 
-//*****14******* */
+// ***** 14 ******* * /
 
 // var manger = {};
 // var firstnam = "first namme"
 // var lastnam = "last name"
-// var AGE  = "age"
+// var AGE = "age"
 // var Money = "money"
 // var firstName = prompt("first name");
 // var lastName = prompt("last name");
@@ -85,7 +85,7 @@
 // manger[Money] = money
 // console.log(manger)
 
-//*****15***** */
+//     ***** 15 ***** * /
 
 // var users = {};
 // var fs = "FirsT Name";
@@ -99,7 +99,7 @@
 // console.log(users)
 // document.write("<div>" + users[ls] + " " + users[lastNamae] + " " + users[EMAIL] + "</div>")
 
-//*****16******* */
+//     ***** 16 ******* * /
 
 // var carsArray = [];
 // for (var i = 0; i < 4; i++) {
@@ -113,7 +113,7 @@
 // }
 // console.log(carsArray)
 
-//*******17****** */
+//     ******* 17 ****** * /
 
 // function trheecats() {
 //     for (let i = 0; i < 3; i++) {
@@ -125,9 +125,9 @@
 //         document.write("<h1>" + cats.name + " " + cats.dayBirth + " " + cats.Weight + " " + cats.type + "</h1>")
 //     }
 // } trheecats()
-//     console.log(cats)
+// console.log(cats)
 
-//*****18***** */
+//     ***** 18 ***** * /
 
 // var users = +prompt("inter number")
 // for (var i = 0; i < users; i++) {
@@ -141,7 +141,7 @@
 //     } usersNumber(users)
 // }
 
-//*****19****** */
+// ***** 19 ****** * /
 
 // var usersnum = +prompt("inter number");
 // for (var i = 0; i < usersnum; i++) {
@@ -158,7 +158,7 @@
 // }
 
 
-//*****20***** */
+// ***** 20 ***** * /
 
 // var numberUsers = +prompt("inter Number");
 // for (var i = 0; i < numberUsers; i++) {
@@ -173,10 +173,10 @@
 //     } kids(numberUsers)
 // }
 
-//*******21****** */
+// ******* 21 ****** * /
 
 // var computers = +prompt("inter number ");
-// for (var i = 0; i < computers; i++){
+// for (var i = 0; i < computers; i++) {
 //     function comp(computers) {
 //         var computer = {};
 //         computer.Society = prompt("inter Society name");
@@ -192,7 +192,7 @@
 // }
 
 
-//*******22******** */
+// ******* 22 ******** * /
 
 // var number = +prompt("inter number");
 // for (var i = 0; i < number; i++) {
@@ -201,16 +201,13 @@
 //         techer.fullName = prompt("inter full name");
 //         techer.email = prompt("inter email");
 //         techer.Ybirthy = prompt("inter yearBirthy");
-//         techer.wagesHour = +prompt("inter wages hour");
-//         if (techer.wagesHour > 100) {
-//             document.write("<span>" + techer.fullName + " " + techer.email + " " + techer.wagesHour + " " + techer.Ybirthy + "</span>");
-//         }
-//         if (techer.birthy < 00 / 00 / 1990) {
-//             document.write("<span>" + techer.fullName + " " + techer.email + " " + techer.wagesHour + " " + techer.Ybirthy + "</span>");
+//         techer.salary = +prompt("inter wages hour");
+//         if (techer.salary > 100 || techer.Ybirthy < 1990) {
+//             document.write("<span>" + techer.fullName + " " + techer.email + " " + techer.salary + " " + techer.Ybirthy + "</span>");
 //         }
 //     } techerNumber(number)
 // }
-//*******23******* */
+// ******* 23 ******* * /
 
 // var piecenum = +prompt("inter number");
 // function Piece(piecenum) {
@@ -218,13 +215,13 @@
 //         var piece = {};
 //         piece.name = prompt("inter piece name");
 //         piece.brand = prompt("inter brand");
-//         piece.arrayStors = ["haifa","ashdod","rehovot","lod"+"ramla"];
+//         piece.arrayStors = ["haifa", "ashdod", "rehovot", "lod" + "ramla"];
 //         piece.price = +prompt("inter price");
-//         document.write("<h1>" + piece.name + "<h1>" + "<h3>"+piece.arrayStors+"</h3>"+ "<br>");
+//         document.write("<h1>" + piece.name + "<h1>" + "<h3>" + piece.arrayStors + "</h3>" + "<br>");
 //     }
 // } Piece(piecenum)
 
-//******24******* */
+//     ****** 24 ******* * /
 // var hoseNumber = +prompt("inter number");
 // function Hose(hoseNumber) {
 //     for (var i = 0; i < hoseNumber; i++) {
@@ -232,15 +229,15 @@
 //         home.address = prompt("inter address");
 //         home.rentalPrice = +prompt("inter rental price");
 //         home.buyingPrice = +prompt("inter buying price");
-//         home.interested = ["avi","dani","nati","dana","lea"];
+//         home.interested = ["avi", "dani", "nati", "dana", "lea"];
 //         home.mediation = confirm("Is there mediation");
-//         if(home.mediation != true){
-//             document.write("<P>"+home.address+"<br>"+home.interested)
+//         if (home.mediation != true) {
+//             document.write("<P>" + home.address + "<br>" + home.interested)
 //         }
 //     }
 // } Hose(hoseNumber)
 
-//********25******** */
+//     ******** 25 ******** * /
 
 // var cantryNum = +prompt("inter bumber");
 // function Cantry(cantryNum) {
@@ -256,16 +253,15 @@
 //     }
 // } Cantry(cantryNum)
 
-//********26****** */
-var movienum = +prompt("inter number");
-for(var i =0;i<movienum;i++){
-function Movie(movienum) {
-var movie = {};
-movie.name = prompt("inter movie name");
-movie.numberViews = +prompt("inter number views");
-movie.year = +prompt("inter year");
-movie.pic = 
-
-} Movie(movienum)
-}
+//     ******** 26 ****** * /
+// var movienum = +prompt("inter number");
+// for (var i = 0; i < movienum; i++) {
+//     function Movie(movienum) {
+//         var movie = {};
+//         movie.name = prompt("inter movie name");
+//         movie.numberViews = +prompt("inter number views");
+//         movie.year = +prompt("inter year");
+//         movie.pic =
+// } Movie(movienum)
+// }
 
