@@ -231,7 +231,7 @@
 //         home.buyingPrice = +prompt("inter buying price");
 //         home.interested = ["avi", "dani", "nati", "dana", "lea"];
 //         home.mediation = confirm("Is there mediation");
-//         if (home.mediation != true) {
+//         if (!home.mediation) {
 //             document.write("<P>" + home.address + "<br>" + home.interested)
 //         }
 //     }
